@@ -1,0 +1,13 @@
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\bin\Debug\netcoreapp3.1\O grito aula - 01.exe
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\bin\Debug\netcoreapp3.1\O grito aula - 01.deps.json
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\bin\Debug\netcoreapp3.1\O grito aula - 01.runtimeconfig.json
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\bin\Debug\netcoreapp3.1\O grito aula - 01.runtimeconfig.dev.json
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\bin\Debug\netcoreapp3.1\O grito aula - 01.dll
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\bin\Debug\netcoreapp3.1\O grito aula - 01.pdb
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\obj\Debug\netcoreapp3.1\O grito aula - 01.csprojAssemblyReference.cache
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\obj\Debug\netcoreapp3.1\O grito aula - 01.AssemblyInfoInputs.cache
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\obj\Debug\netcoreapp3.1\O grito aula - 01.AssemblyInfo.cs
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\obj\Debug\netcoreapp3.1\O grito aula - 01.csproj.CoreCompileInputs.cache
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\obj\Debug\netcoreapp3.1\O grito aula - 01.dll
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\obj\Debug\netcoreapp3.1\O grito aula - 01.pdb
+C:\Users\Luiz Ferreira\Desktop\O Grito\O grito aula - 01\O grito aula - 01\obj\Debug\netcoreapp3.1\O grito aula - 01.genruntimeconfig.cache
