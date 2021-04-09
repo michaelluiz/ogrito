@@ -32,13 +32,29 @@ namespace O_grito_aula___01
 
             // Você vai pedir a idade de uma pessoa, e vai mostrar a idade somado com 2
 
-            Console.WriteLine("informe sua idade");
-            int idadeDeUmaPessoa;
-            idadeDeUmaPessoa = int.Parse(Console.ReadLine());
-            idadeDeUmaPessoa = idadeDeUmaPessoa + 2;
-            Console.WriteLine(idadeDeUmaPessoa);
+            //Console.WriteLine("informe sua idade");
+            //int idadeDeUmaPessoa;
+            //idadeDeUmaPessoa = int.Parse(Console.ReadLine());
+            //idadeDeUmaPessoa = idadeDeUmaPessoa + 2;
+            //Console.WriteLine(idadeDeUmaPessoa);
 
-           
-        }
+
+
+            //double pesoEmKg;
+            //double alturaEmMetros;
+            //double IMC;
+            //Console.WriteLine("IMC");
+            //Console.WriteLine("informe seu peso em kg");
+            //pesoEmKg = double.Parse(Console.ReadLine());
+            //Console.WriteLine("informe sua altura em metros");
+            //alturaEmMetros = double.Parse(Console.ReadLine());
+            //IMC = pesoEmKg / (alturaEmMetros * alturaEmMetros);
+            //Console.WriteLine(IMC);
+
+
+
+
+
+         }
     }
 }
