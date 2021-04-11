@@ -51,8 +51,20 @@ namespace O_grito_aula___01
             //IMC = pesoEmKg / (alturaEmMetros * alturaEmMetros);
             //Console.WriteLine(IMC);
 
+            double valorDoProduto;
+            double lucro;
+            double venda;
+            Console.WriteLine("valor de Compra");
+            valorDoProduto = double.Parse(Console.ReadLine());
+            lucro = valorDoProduto * 0.43;
+            Console.WriteLine("lucro");
+            Console.WriteLine(lucro);
+            venda = valorDoProduto + lucro;
+            Console.WriteLine("Valor de Venda");
+            Console.WriteLine(venda);
 
 
+            
 
 
          }
