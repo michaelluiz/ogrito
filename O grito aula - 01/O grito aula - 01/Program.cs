@@ -115,16 +115,15 @@ namespace O_grito_aula___01
             //    Console.WriteLine("inválido");
             //    {
 
-            bool notVerdadeiro = !true; //falso
-            bool notFalso = !false; //verdadeiro
-            bool ou1 = true || true; // verdadeiro
-            bool ou2 = true || false; // verdadeiro
-            bool ou3 = false || true; // verdadeiro
-            bool ou4 = false || false; // falso
-            bool e1 = true && true; // verdadeiro
-            bool e2 = true && false; // falso
-            bool e3 = false && true; // falso
-            bool e4 = false && false; // falso
+            //Considerando as variáveis do lado esquerdo, informe os resultados abaixo:
+            //ou1 && e4
+            //notFalso || ou4
+            //e1 || ou4
+            //notFalso && notVerdadeiro
+            //(e1 || ou3) && e1
+            //!e1 || ou3) && e1
+            //(e3 || e4) && (ou1 || ou2)
+
 
             bool ex1 = (true || true) && (false && false);
             bool ex2 = (!false) || (false || false);
