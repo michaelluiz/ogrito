@@ -99,12 +99,12 @@ namespace O_grito_aula___01
             //Console.WriteLine(e4);
 
 
-            // Se o meu usuário informar 1, eu mostro na tela "Válido",
+            //Se o meu usuário informar 1, eu mostro na tela "Válido",
             // caso contrario mostrar "Invalido"
             //bool n1;
 
             //Console.WriteLine("informe 1 ou 0");
-            //n1 = bool.Parse (Console.ReadLine());
+            //n1 = bool.Parse(Console.ReadLine());
 
             //if (n1)
             //{
@@ -113,7 +113,36 @@ namespace O_grito_aula___01
             //else
             //{
             //    Console.WriteLine("inválido");
-            }
+            //    {
+
+            bool notVerdadeiro = !true; //falso
+            bool notFalso = !false; //verdadeiro
+            bool ou1 = true || true; // verdadeiro
+            bool ou2 = true || false; // verdadeiro
+            bool ou3 = false || true; // verdadeiro
+            bool ou4 = false || false; // falso
+            bool e1 = true && true; // verdadeiro
+            bool e2 = true && false; // falso
+            bool e3 = false && true; // falso
+            bool e4 = false && false; // falso
+
+            bool ex1 = (true || true) && (false && false);
+            bool ex2 = (!false) || (false || false);
+            bool ex3 = (true && true) || (false || false);
+            bool ex4 = (!false) || (!true);
+            bool ex5 = (true && true || false || true) && true && true;
+            bool ex6 = !(true && true || false || true) && true && true;
+            bool ex7 = (false && true || false && false) && (true || true || true || false);
+            Console.WriteLine(ex1);
+            Console.WriteLine(ex2);
+            Console.WriteLine(ex3);
+            Console.WriteLine(ex4);
+            Console.WriteLine(ex5);
+            Console.WriteLine(ex6);
+            Console.WriteLine(ex7);
+
+
         }
     }
+    
 }
