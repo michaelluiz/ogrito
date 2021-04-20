@@ -125,20 +125,111 @@ namespace O_grito_aula___01
             //(e3 || e4) && (ou1 || ou2)
 
 
-            bool ex1 = (true || true) && (false && false);
-            bool ex2 = (!false) || (false || false);
-            bool ex3 = (true && true) || (false || false);
-            bool ex4 = (!false) || (!true);
-            bool ex5 = (true && true || false || true) && true && true;
-            bool ex6 = !(true && true || false || true) && true && true;
-            bool ex7 = (false && true || false && false) && (true || true || true || false);
-            Console.WriteLine(ex1);
-            Console.WriteLine(ex2);
-            Console.WriteLine(ex3);
-            Console.WriteLine(ex4);
-            Console.WriteLine(ex5);
-            Console.WriteLine(ex6);
-            Console.WriteLine(ex7);
+            //bool ex1 = (true || true) && (false && false);
+            //bool ex2 = (!false) || (false || false);
+            //bool ex3 = (true && true) || (false || false);
+            //bool ex4 = (!false) || (!true);
+            //bool ex5 = (true && true || false || true) && true && true;
+            //bool ex6 = !(true && true || false || true) && true && true;
+            //bool ex7 = (false && true || false && false) && (true || true || true || false);
+            //Console.WriteLine(ex1);
+            //Console.WriteLine(ex2);
+            //Console.WriteLine(ex3);
+            //Console.WriteLine(ex4);
+            //Console.WriteLine(ex5);
+            //Console.WriteLine(ex6);
+            //Console.WriteLine(ex7);
+
+            //bool ex1 = (18 > 21);
+            //bool ex2 = (18 >= 21);
+            //bool ex3 = (18.0 == 21.21);
+            //bool ex4 = "arvore" == "pato";
+            //bool ex5 = "gato" == "gato";
+            //bool ex6 = "cachorro" != "cachorro";
+            //Console.WriteLine(ex1);
+            //Console.WriteLine(ex2);
+            //Console.WriteLine(ex3);
+            //Console.WriteLine(ex4);
+            //Console.WriteLine(ex5);
+            //Console.WriteLine(ex6);
+
+
+
+            //int idade;
+            //Console.WriteLine("informe sua idade");
+
+            //idade = int.Parse (Console.ReadLine());
+
+            //if (idade >= 18)
+            //{
+            //    Console.WriteLine("Maior Idade");
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("Menor Idade");
+            //}
+
+
+
+
+
+
+            //Você vai pedir a nota final. Se a nota for maior que 60, imprimir na
+            //tela "APROVADO", senão, imprimir na tela "REPROVADO"
+
+
+            //int nota;
+            //Console.WriteLine("Nota Final");
+
+            //nota = int.Parse (Console.ReadLine());
+
+            //if (nota >= 60)
+            //{
+            //    Console.WriteLine("Aprovado");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Reprovado");
+            //}
+
+
+            //Você vai pedir as notas de matemática, portugues, ciências e história. Tirar a média dessas notas.
+            //Se a média for maior que 60, imprimir na tela "APROVADO", senão, imprimir na tela "REPROVADO".
+
+
+            //int matematica;
+            //int portugues;
+            //int ciencias;
+            //int historia;
+            //double media;
+            //Console.WriteLine("informe as notas");
+            //Console.WriteLine("Nota de Matemática");
+            //matematica = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Nota de Portgues");
+            //portugues = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Nota de Ciências");
+            //ciencias = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Nota de História");
+            //historia = int.Parse(Console.ReadLine());
+            //media = (matematica + portugues + ciencias + historia) / 4.0;
+            //Console.WriteLine("Média");
+            //Console.WriteLine(media);
+
+            //if (media >= 60)
+            //{
+            //    Console.WriteLine("Aprovado");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Reprovado");
+            //}
+
+
+
+
+
+
 
 
         }
