@@ -226,6 +226,104 @@ namespace O_grito_aula___01
             //}
 
 
+            //int l1;
+            //int l2;
+            //int l3;
+            //int tipoDoTriangulo;
+
+            //Console.WriteLine("informe o valor para cada lado do tringulo");
+            //l1 = int.Parse(Console.ReadLine());
+            //l2 = int.Parse(Console.ReadLine());
+            //l3 = int.Parse(Console.ReadLine());
+
+            //if (l1 == l2 && l2 == l3)
+            //{
+            //    Console.WriteLine("Equilatero");
+            //    tipoDoTriangulo = 1;
+            //}
+
+            //else if (l1 == l2 || l2 == l3)
+            //{
+            //    Console.WriteLine("Isosceles");
+            //    tipoDoTriangulo = 2;
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("Escaleno");
+            //    tipoDoTriangulo = 3;
+            //}
+
+            //switch (tipoDoTriangulo)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Todos os Lados Iguais");
+            //        break;
+
+            //    case 2:
+            //        Console.WriteLine("dois lados iguais e um diferente");
+            //        break;
+
+            //    case 3:
+            //        Console.WriteLine("Nenhum dos lados são iguais");
+            //        break;
+
+            //}
+
+
+            double Etanol=3.567;
+            double GasolinaC= 4.997;
+            double GasolinaA=5.217;
+            double Diesel = 3.747;
+            double TipoCombustivel;
+            double QuantidadeEmLitro;
+            double Total;
+
+
+            Console.WriteLine("1 - Etanol R$3,567");
+            Console.WriteLine("2 - Gasolina Comum R$4,997");
+            Console.WriteLine("3 - Gasolina Adtivada R$5,217");
+            Console.WriteLine("4 - Diesel R$3,747");
+            TipoCombustivel = double.Parse(Console.ReadLine());
+            Console.WriteLine("informe quantos litros");
+            QuantidadeEmLitro = double.Parse(Console.ReadLine());
+
+            if (TipoCombustivel == 1)
+            {
+                Console.Clear();
+                Console.WriteLine("Você Selecionou Etanol");
+                Console.WriteLine("Valor a Pagar");
+                Console.WriteLine(Etanol * QuantidadeEmLitro);
+                
+            }
+            else if (TipoCombustivel == 2)
+            {
+                Console.Clear();
+                Console.WriteLine("Você Selecionou Gasolina Comum");
+                Console.WriteLine("Valor a Pagar");
+                Console.WriteLine(GasolinaC * QuantidadeEmLitro);
+                
+            }
+            else if (TipoCombustivel == 3)
+            {
+                Console.Clear();
+                Console.WriteLine("Você Selecionou Gasolina Aditivada");
+                Console.WriteLine("Valor a Pagar");
+                Console.WriteLine(GasolinaA * QuantidadeEmLitro);
+                
+            }
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("Você Selecionou Diesel");
+                Console.WriteLine("Valor a Pagar");
+                Console.WriteLine(Diesel * QuantidadeEmLitro);
+                
+            }
+
+
+
+
 
 
 
