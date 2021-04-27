@@ -271,64 +271,163 @@ namespace O_grito_aula___01
             //}
 
 
-            double Etanol=3.567;
-            double GasolinaC= 4.997;
-            double GasolinaA=5.217;
-            double Diesel = 3.747;
-            double TipoCombustivel;
-            double QuantidadeEmLitro;
-            double Total;
 
 
-            Console.WriteLine("1 - Etanol R$3,567");
-            Console.WriteLine("2 - Gasolina Comum R$4,997");
-            Console.WriteLine("3 - Gasolina Adtivada R$5,217");
-            Console.WriteLine("4 - Diesel R$3,747");
-            TipoCombustivel = double.Parse(Console.ReadLine());
-            Console.WriteLine("informe quantos litros");
-            QuantidadeEmLitro = double.Parse(Console.ReadLine());
 
-            if (TipoCombustivel == 1)
-            {
-                Console.Clear();
-                Console.WriteLine("Você Selecionou Etanol");
-                Console.WriteLine("Valor a Pagar");
-                Console.WriteLine(Etanol * QuantidadeEmLitro);
+
+
+
+
+            //double Etanol=3.567;
+            //double GasolinaC= 4.997;
+            //double GasolinaA=5.217;
+            //double Diesel = 3.747;
+            //double TipoCombustivel;
+            //double QuantidadeEmLitro;
+            //double Total;
+
+
+            //Console.WriteLine("1 - Etanol R$3,567");
+            //Console.WriteLine("2 - Gasolina Comum R$4,997");
+            //Console.WriteLine("3 - Gasolina Adtivada R$5,217");
+            //Console.WriteLine("4 - Diesel R$3,747");
+            //TipoCombustivel = double.Parse(Console.ReadLine());
+            //Console.WriteLine("informe quantos litros");
+            //QuantidadeEmLitro = double.Parse(Console.ReadLine());
+
+            //if (TipoCombustivel == 1)
+            //{
+            //    Console.Clear();
+            //    Console.WriteLine("Você Selecionou Etanol");
+            //    Console.WriteLine("Valor a Pagar");
+            //    Console.WriteLine(Etanol * QuantidadeEmLitro);
                 
-            }
-            else if (TipoCombustivel == 2)
-            {
-                Console.Clear();
-                Console.WriteLine("Você Selecionou Gasolina Comum");
-                Console.WriteLine("Valor a Pagar");
-                Console.WriteLine(GasolinaC * QuantidadeEmLitro);
+            //}
+            //else if (TipoCombustivel == 2)
+            //{
+            //    Console.Clear();
+            //    Console.WriteLine("Você Selecionou Gasolina Comum");
+            //    Console.WriteLine("Valor a Pagar");
+            //    Console.WriteLine(GasolinaC * QuantidadeEmLitro);
                 
-            }
-            else if (TipoCombustivel == 3)
-            {
-                Console.Clear();
-                Console.WriteLine("Você Selecionou Gasolina Aditivada");
-                Console.WriteLine("Valor a Pagar");
-                Console.WriteLine(GasolinaA * QuantidadeEmLitro);
+            //}
+            //else if (TipoCombustivel == 3)
+            //{
+            //    Console.Clear();
+            //    Console.WriteLine("Você Selecionou Gasolina Aditivada");
+            //    Console.WriteLine("Valor a Pagar");
+            //    Console.WriteLine(GasolinaA * QuantidadeEmLitro);
                 
+            //}
+            //else
+            //{
+            //    Console.Clear();
+            //    Console.WriteLine("Você Selecionou Diesel");
+            //    Console.WriteLine("Valor a Pagar");
+            //    Console.WriteLine(Diesel * QuantidadeEmLitro);
+                
+            //}
+
+
+
+            // ATIVIDADE 23/04/2021
+
+
+
+            //double Etanol = 3.567;
+            //double GasolinaC = 4.997;
+            //double GasolinaA = 5.217;
+            //double Diesel = 3.747;
+            //double TipoCombustivel;
+            //double QuantidadeDinheiro;
+            //double TotalEmLitros;
+            
+
+
+            //Console.WriteLine("1 - Etanol R$3,567");
+            //Console.WriteLine("2 - Gasolina Comum R$4,997");
+            //Console.WriteLine("3 - Gasolina Adtivada R$5,217");
+            //Console.WriteLine("4 - Diesel R$3,747");
+            //TipoCombustivel = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Informe Valor em Dinheiro");
+            //QuantidadeDinheiro = double.Parse(Console.ReadLine());
+
+
+            //switch (TipoCombustivel)
+            //{
+
+            //    case 1:
+            //        Console.Clear();
+            //        Console.WriteLine("Total em Litros");
+            //        TotalEmLitros = (QuantidadeDinheiro / Etanol);
+
+            //        break;
+
+            //    case 2:
+            //        Console.Clear();
+            //        Console.WriteLine("Total em Litros");
+            //        TotalEmLitros = (QuantidadeDinheiro / GasolinaC);
+            //        break;
+
+            //    case 3:
+            //        Console.Clear();
+            //        Console.WriteLine("Total em Litros");
+            //        TotalEmLitros = (QuantidadeDinheiro / GasolinaA);
+            //        break;
+
+            //    default:
+            //        Console.Clear();
+            //        Console.WriteLine("Total em Litros");
+            //        TotalEmLitros = (QuantidadeDinheiro / Diesel);
+            //        break;
+
+            //}
+
+            //Console.WriteLine("R$" + TotalEmLitros.ToString("0.00"));
+
+
+
+            // AULA DIA 27/04/2021
+
+
+            int passageiros;
+            double distanciakm;
+            double c1 = 100.00;
+            double c2 = 200.00;
+            double c3 = 500.00;
+            const double COMBUSTIVEL = 6.17;
+            double total;
+            double totalCusto;
+            double preçoTotalDeVenda;
+
+            Console.WriteLine("Informe o número de passageiros");
+            passageiros = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine("\nInforme o km");
+            distanciakm = double.Parse(Console.ReadLine());
+
+            if (passageiros <= 5)
+            {
+                totalCusto = (distanciakm * COMBUSTIVEL + c1);
+                preçoTotalDeVenda = ((totalCusto / 100) * 50);
+                Console.WriteLine("\nSeu Carro é do tipo 1");
             }
+
+            else if (passageiros <= 10)
+            {
+                totalCusto = (distanciakm * COMBUSTIVEL + c2);
+                preçoTotalDeVenda = ((totalCusto / 100) * 50);
+                Console.WriteLine("\nSeu Carro é do tipo 2");
+            }
+
             else
             {
-                Console.Clear();
-                Console.WriteLine("Você Selecionou Diesel");
-                Console.WriteLine("Valor a Pagar");
-                Console.WriteLine(Diesel * QuantidadeEmLitro);
-                
+                totalCusto = (distanciakm * COMBUSTIVEL + c3);
+                preçoTotalDeVenda = ((totalCusto / 100) * 50);
+                Console.WriteLine("\nSeu Carro é do tipo 3");
             }
 
-
-
-
-
-
-
-
-
+            Console.WriteLine(totalCusto + preçoTotalDeVenda);
 
         }
     }
