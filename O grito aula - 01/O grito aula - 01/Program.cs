@@ -301,7 +301,7 @@ namespace O_grito_aula___01
             //    Console.WriteLine("Você Selecionou Etanol");
             //    Console.WriteLine("Valor a Pagar");
             //    Console.WriteLine(Etanol * QuantidadeEmLitro);
-                
+
             //}
             //else if (TipoCombustivel == 2)
             //{
@@ -309,7 +309,7 @@ namespace O_grito_aula___01
             //    Console.WriteLine("Você Selecionou Gasolina Comum");
             //    Console.WriteLine("Valor a Pagar");
             //    Console.WriteLine(GasolinaC * QuantidadeEmLitro);
-                
+
             //}
             //else if (TipoCombustivel == 3)
             //{
@@ -317,7 +317,7 @@ namespace O_grito_aula___01
             //    Console.WriteLine("Você Selecionou Gasolina Aditivada");
             //    Console.WriteLine("Valor a Pagar");
             //    Console.WriteLine(GasolinaA * QuantidadeEmLitro);
-                
+
             //}
             //else
             //{
@@ -325,12 +325,14 @@ namespace O_grito_aula___01
             //    Console.WriteLine("Você Selecionou Diesel");
             //    Console.WriteLine("Valor a Pagar");
             //    Console.WriteLine(Diesel * QuantidadeEmLitro);
-                
+
             //}
 
 
 
-            // ATIVIDADE 23/04/2021
+
+            ////////////////////////////////////////// ATIVIDADE 23/04/2021
+
 
 
 
@@ -341,7 +343,7 @@ namespace O_grito_aula___01
             //double TipoCombustivel;
             //double QuantidadeDinheiro;
             //double TotalEmLitros;
-            
+
 
 
             //Console.WriteLine("1 - Etanol R$3,567");
@@ -387,49 +389,594 @@ namespace O_grito_aula___01
 
 
 
-            // AULA DIA 27/04/2021
 
 
-            int passageiros;
-            double distanciakm;
-            double c1 = 100.00;
-            double c2 = 200.00;
-            double c3 = 500.00;
-            const double COMBUSTIVEL = 6.17;
-            double total;
-            double totalCusto;
-            double preçoTotalDeVenda;
+            ////////////////////////////////////////////////// AULA DIA 27/04/2021
 
-            Console.WriteLine("Informe o número de passageiros");
-            passageiros = int.Parse(Console.ReadLine());
+
+
+
+            //int passageiros;
+            //double distanciakm;
+            //double c1 = 100.00;
+            //double c2 = 200.00;
+            //double c3 = 500.00;
+            //const double COMBUSTIVEL = 6.17;
+            //double total;
+            //double totalCusto;
+            //double preçoTotalDeVenda;
+
+            //Console.WriteLine("Informe o número de passageiros");
+            //passageiros = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("\nInforme o km");
+            //distanciakm = double.Parse(Console.ReadLine());
+
+            //if (passageiros <= 5)
+            //{
+            //    totalCusto = (distanciakm * COMBUSTIVEL + c1);
+            //    preçoTotalDeVenda = ((totalCusto / 100) * 50);
+            //    Console.WriteLine("\nSeu Carro é do tipo 1");
+            //}
+
+            //else if (passageiros <= 10)
+            //{
+            //    totalCusto = (distanciakm * COMBUSTIVEL + c2);
+            //    preçoTotalDeVenda = ((totalCusto / 100) * 50);
+            //    Console.WriteLine("\nSeu Carro é do tipo 2");
+            //}
+
+            //else
+            //{
+            //    totalCusto = (distanciakm * COMBUSTIVEL + c3);
+            //    preçoTotalDeVenda = ((totalCusto / 100) * 50);
+            //    Console.WriteLine("\nSeu Carro é do tipo 3");
+            //}
+
+            //Console.WriteLine(totalCusto + preçoTotalDeVenda);
+
+
+
+
+
+            /*************************/// AULA DE REPETIÇÕES
+
+
+
+
+            //string[] vetorDeAlunos = new string[3];
+
+            //vetorDeAlunos[0] = "Michael";
+            //vetorDeAlunos[1] = "João";
+            //vetorDeAlunos[2] = "Anitta";
+
+            //for (int i = 0; i < vetorDeAlunos.Length; i=i+2) {
+            //    Console.WriteLine(vetorDeAlunos[i]);
+            //}
+
+
+
+
+            //********************************// 30/04/2021.
+
+
+
+
+
+            //int [] notasDeAlunos = new int[5];
+            //const int notaDeAprovacao = 60;
+            //double media;
+
+            //Console.WriteLine("insira a nota do Alunos 0");
+            //notasDeAlunos[0] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("insira a nota do Alunos 1");
+            //notasDeAlunos[1] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("insira a nota do Alunos 2");
+            //notasDeAlunos[2] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("insira a nota do Alunos 3");
+            //notasDeAlunos[3] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("insira a nota do Alunos 4");
+            //notasDeAlunos[4] = int.Parse(Console.ReadLine());
+
+            //Console.Clear();
+
+            //if (notasDeAlunos[0] > notaDeAprovacao)
+            //{
+            //    Console.WriteLine("Aprovado " + notasDeAlunos[0].ToString());
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Reprovado " + notasDeAlunos[0].ToString());
+            //}
+
+            //if (notasDeAlunos[1] > notaDeAprovacao)
+            //{
+            //    Console.WriteLine("Aprovado " + notasDeAlunos[1].ToString());
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Reprovado " + notasDeAlunos[1].ToString());
+            //}
+
+            //if (notasDeAlunos[2] > notaDeAprovacao)
+            //{
+            //    Console.WriteLine("Aprovado " + notasDeAlunos[2].ToString());
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Reprovado " + notasDeAlunos[2].ToString());
+            //}
+
+            //if (notasDeAlunos[3] > notaDeAprovacao)
+            //{
+            //    Console.WriteLine("Aprovado " + notasDeAlunos[3].ToString());
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Reprovado " + notasDeAlunos[3].ToString());
+            //}
+
+            //if (notasDeAlunos[4] > notaDeAprovacao)
+            //{
+            //    Console.WriteLine("Aprovado " + notasDeAlunos[4].ToString());
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Reprovado " + notasDeAlunos[4].ToString());
+            //}
+
+
+            //media = (notasDeAlunos[0] + notasDeAlunos[1] + notasDeAlunos[2] + notasDeAlunos[3] + notasDeAlunos[4]) / (double) notasDeAlunos.Length;
+            //Console.WriteLine("Média dos Alunos");
+            //Console.WriteLine(media);
+
+
+
+
+
+            /////////////////////////////////////////////Exercício 01
+
+
+
+
+            //const double LEGISLACAO = 500.00;
+            //double CNHA = 650.00;
+            //double CNHB = 350.00;
+            //double TipoDeCNH;
+            //int IdadeDoAluno;
+            //double TotalDaCNH;
+
+            //Console.WriteLine("Escolha uma categoria de Habilitação");
+            //Console.WriteLine("1 - CNH A - 650,00");
+            //Console.WriteLine("2 - CNH B - 350,00");
+
+
+            //TipoDeCNH = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Idade do Aluno");
+            //IdadeDoAluno = int.Parse(Console.ReadLine());
+
+            //if (IdadeDoAluno >= 18)
+            //{
+            //    Console.Clear();
+            //    Console.WriteLine("Apto para Auto Escola");
+            //    Console.WriteLine("\nO valor a Pagar");
+            //    Console.WriteLine("R$" + (LEGISLACAO + CNHA));
+
+            //}
+
+            //else
+            //{
+            //    Console.Clear();
+            //    Console.WriteLine("Não está Apto para Auto Escola");
+            //    Console.WriteLine("\nValor a Pagar seria");
+            //    Console.WriteLine("R$" + (LEGISLACAO + CNHB));
+
+            //}
+
+
+            /////////////////////////////////////////////////////EXERCÍCIO 02
+
+
+
+            //string[] pokemon = new string[5];
+
+            //string[] idadePokemon = new string[5];
+
+            //string[] tipoPokemon = new string[5];
+
+            //int origemPokemon;
+
+
+            //const string ELETRICO = "ELETRICO";
+            //const string TERRA = "TERRA";
+            //const string FOGO = "FOGO";
+            //const string PLANTA = "PLANTA";
+            //const string AGUA = "AGUA";
+
+            //Console.WriteLine("Indique um Pokémon: \n0 - pikachu, \n1 - Geodude, \n2 - Charmander, \n3 - Bulbasaur, \n4 - Mudkip,");
+
+            //Console.WriteLine("Informe o Nome do Pokémon 0");
+            //pokemon[0] = Console.ReadLine();
+            //Console.WriteLine("Informe o Nome do Pokémon 1");
+            //pokemon[1] = Console.ReadLine();
+            //Console.WriteLine("Informe o Nome do Pokémon 2");
+            //pokemon[2] = Console.ReadLine();
+            //Console.WriteLine("Informe o Nome do Pokémon 3");
+            //pokemon[3] = Console.ReadLine();
+            //Console.WriteLine("Informe o Nome do Pokémon 4");
+            //pokemon[4] = Console.ReadLine();
+
+            //Console.WriteLine("Informe a idade do Pokémon 0");
+            //idadePokemon[0] = Console.ReadLine();
+            //Console.WriteLine("Informe a idade do Pokémon 1");
+            //idadePokemon[1] = Console.ReadLine();
+            //Console.WriteLine("Informe a idade do Pokémon 2");
+            //idadePokemon[2] = Console.ReadLine();
+            //Console.WriteLine("Informe a idade do Pokémon 3");
+            //idadePokemon[3] = Console.ReadLine();
+            //Console.WriteLine("Informe a idade do Pokémon 4");
+            //idadePokemon[4] = Console.ReadLine();
+
+
+            //Console.WriteLine("Tipo de Pokémon: \n0 - Eletrico, \n1 - Terra, \n2 - Fogo, \n3 - Planta, \n4 - água,");
+
+            //Console.WriteLine("Informe o tipo do Pokémon 0");
+            //origemPokemon = int.Parse(Console.ReadLine());
+
+            //if (origemPokemon == 0)
+            //{
+            //    tipoPokemon[0] = ELETRICO;
+            //}
+
+            //else if (origemPokemon == 1)
+            //{
+            //    tipoPokemon[1] = TERRA;
+            //}
+
+            //else if (origemPokemon == 2)
+            //{
+            //    tipoPokemon[2] = FOGO;
+            //}
+
+            //else if (origemPokemon == 3)
+            //{
+            //    tipoPokemon[3] = PLANTA;
+            //}
+
+            //else
+            //{
+            //    tipoPokemon[4] = AGUA;
+            //}
+
+
+            //Console.WriteLine("Informe o tipo do Pokémon 1");
+            //origemPokemon = int.Parse(Console.ReadLine());
+
+            //if (origemPokemon == 0)
+            //{
+            //    tipoPokemon[0] = ELETRICO;
+            //}
+
+            //else if (origemPokemon == 1)
+            //{
+            //    tipoPokemon[1] = TERRA;
+            //}
+
+            //else if (origemPokemon == 2)
+            //{
+            //    tipoPokemon[2] = FOGO;
+            //}
+
+            //else if (origemPokemon == 3)
+            //{
+            //    tipoPokemon[3] = PLANTA;
+            //}
+
+            //else
+            //{
+            //    tipoPokemon[4] = AGUA;
+            //}
+
+            //Console.WriteLine("Informe o tipo do Pokémon 2");
+            //origemPokemon = int.Parse(Console.ReadLine());
+
+            //if (origemPokemon == 0)
+            //{
+            //    tipoPokemon[0] = ELETRICO;
+            //}
+
+            //else if (origemPokemon == 1)
+            //{
+            //    tipoPokemon[1] = TERRA;
+            //}
+
+            //else if (origemPokemon == 2)
+            //{
+            //    tipoPokemon[2] = FOGO;
+            //}
+
+            //else if (origemPokemon == 3)
+            //{
+            //    tipoPokemon[3] = PLANTA;
+            //}
+
+            //else
+            //{
+            //    tipoPokemon[4] = AGUA;
+            //}
+
+            //Console.WriteLine("Informe o tipo do Pokémon 3");
+            //origemPokemon = int.Parse(Console.ReadLine());
+
+            //if (origemPokemon == 0)
+            //{
+            //    tipoPokemon[0] = ELETRICO;
+            //}
+
+            //else if (origemPokemon == 1)
+            //{
+            //    tipoPokemon[1] = TERRA;
+            //}
+
+            //else if (origemPokemon == 2)
+            //{
+            //    tipoPokemon[2] = FOGO;
+            //}
+
+            //else if (origemPokemon == 3)
+            //{
+            //    tipoPokemon[3] = PLANTA;
+            //}
+
+            //else
+            //{
+            //    tipoPokemon[4] = AGUA;
+            //}
+
+            //Console.WriteLine("Informe o tipo do Pokémon 4");
+            //origemPokemon = int.Parse(Console.ReadLine());
+
+            //if (origemPokemon == 0)
+            //{
+            //    tipoPokemon[0] = ELETRICO;
+            //}
+
+            //else if (origemPokemon == 1)
+            //{
+            //    tipoPokemon[1] = TERRA;
+            //}
+
+            //else if (origemPokemon == 2)
+            //{
+            //    tipoPokemon[2] = FOGO;
+            //}
+
+            //else if (origemPokemon == 3)
+            //{
+            //    tipoPokemon[3] = PLANTA;
+            //}
+
+            //else
+            //{
+            //    tipoPokemon[4] = AGUA;
+            //}
+
+            //Console.Clear();
+
+            //Console.WriteLine(pokemon[0] + "; idade " + idadePokemon[0] + " anos, " + "Origem " + tipoPokemon[0]);
+            //Console.WriteLine(pokemon[1] + "; idade " + idadePokemon[1] + " anos, " + "Origem " + tipoPokemon[1]);
+            //Console.WriteLine(pokemon[2] + "; idade " + idadePokemon[2] + " anos, " + "Origem " + tipoPokemon[2]);
+            //Console.WriteLine(pokemon[3] + "; idade " + idadePokemon[3] + " anos, " + "Origem " + tipoPokemon[3]);
+            //Console.WriteLine(pokemon[4] + "; idade " + idadePokemon[4] + " anos, " + "Origem " + tipoPokemon[4]);
+
+
+            ////////////////////////// EXPLICAÇÃO DO EXERCICIO DIA 11/05/2021
+
+
+
+            //int carrosNaGaragem;
+
+
+            //string[] modeloCarro;
+
+            //string[] corCarro;
+
+            //string[] placaCarro;
+
+            //string[] anoFabricação;
+
+
+
+            //Console.WriteLine("Quanto carros tem na garagem?");
+
+            //carrosNaGaragem = int.Parse(Console.ReadLine());
+
+            //Console.Clear();
+
+            //modeloCarro = new string[carrosNaGaragem];
+            //corCarro = new string[carrosNaGaragem];
+            //placaCarro = new string[carrosNaGaragem];
+            //anoFabricação = new string[carrosNaGaragem];
+
+
+
+            //Console.WriteLine("Informe os dados conforme as etapas");
+
+
+            //for (int i=0; i < modeloCarro.Length; i++)
+            //{
+            //    Console.WriteLine("\nInforme o Modelo do Carro " + i);
+            //    modeloCarro[i] = Console.ReadLine();
+            //}
+
+
+            //Console.Clear();
+
+
+            //for (int i=0; i< corCarro.Length; i++)
+            //{
+            //    Console.WriteLine("Informe a Cor Carro " + i);
+            //    placaCarro[i] = Console.ReadLine();
+            //}
+
+
+            //Console.Clear();
+
+
+            //for (int i=0;i < placaCarro.Length; i++)
+            //{
+            //    Console.WriteLine("Informe a Placa do Carro " + i);
+            //    placaCarro[i] = Console.ReadLine();
+            //}
+
+
+            //Console.Clear();
+
+            //for (int i=0; i < anoFabricação.Length; i++)
+            //{
+            //    Console.WriteLine("Informe o Ano de Fabricação do Carro " + i);
+            //    anoFabricação[i] = Console.ReadLine();
+            //}
+
+
+            //Console.Clear();
+
+            //Console.WriteLine("Veiculos Cadastrados");
+
+
+
+            //for (int i =0; i < modeloCarro.Length; i++)
+            //{
+            //    Console.WriteLine("\n" + modeloCarro[i] + ", Ano " + anoFabricação[i] + ", Placa " + placaCarro[i] + ",Cor " + corCarro[i]);
+
+
+
+
+            /////////    EXERCICIO DIA 11/05/2021   - 01
+
+
+
+            string[] nomeDoAluno;
+            double[] notaDosAlunos;
+            double mediaDeNotas;
+            int numeroDeAlunos;
+            double notaTotal = 0;
+
+            Console.WriteLine("Cadastre os Nomes do Alunos");
+
+            numeroDeAlunos = int.Parse(Console.ReadLine());
+
+            nomeDoAluno = new string[numeroDeAlunos];
+            notaDosAlunos = new double[numeroDeAlunos];
+
             
-            Console.WriteLine("\nInforme o km");
-            distanciakm = double.Parse(Console.ReadLine());
 
-            if (passageiros <= 5)
+            for (int i = 0; i < numeroDeAlunos; i++)
             {
-                totalCusto = (distanciakm * COMBUSTIVEL + c1);
-                preçoTotalDeVenda = ((totalCusto / 100) * 50);
-                Console.WriteLine("\nSeu Carro é do tipo 1");
+                Console.WriteLine("informe o nome do Aluno de Nº" + i);
+                nomeDoAluno[i] = Console.ReadLine();
+                Console.WriteLine("\ninforme a nota do Aluno " + i);
+                notaDosAlunos[i] = double.Parse(Console.ReadLine());
+
             }
 
-            else if (passageiros <= 10)
+            for (int i = 0; i < numeroDeAlunos; i++)
             {
-                totalCusto = (distanciakm * COMBUSTIVEL + c2);
-                preçoTotalDeVenda = ((totalCusto / 100) * 50);
-                Console.WriteLine("\nSeu Carro é do tipo 2");
+                notaTotal = notaTotal + notaDosAlunos[i];
+                
+                
+
+
+
+
+
+
+
             }
 
-            else
-            {
-                totalCusto = (distanciakm * COMBUSTIVEL + c3);
-                preçoTotalDeVenda = ((totalCusto / 100) * 50);
-                Console.WriteLine("\nSeu Carro é do tipo 3");
-            }
 
-            Console.WriteLine(totalCusto + preçoTotalDeVenda);
+
+
+
+
+
+
+
+            Console.WriteLine("Média da Turma");
+            Console.WriteLine("\n" + notaTotal / numeroDeAlunos);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         }
     }
-    
 }
+
+    
