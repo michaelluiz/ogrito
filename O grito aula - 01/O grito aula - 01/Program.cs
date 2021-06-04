@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace O_grito_aula___01
 {
@@ -39,6 +40,7 @@ namespace O_grito_aula___01
             //Console.WriteLine(idadeDeUmaPessoa);
 
 
+            ////////////////////////////////////////////////////////////////////
 
             //double pesoEmKg;
             //double alturaEmMetros;
@@ -50,6 +52,13 @@ namespace O_grito_aula___01
             //alturaEmMetros = double.Parse(Console.ReadLine());
             //IMC = pesoEmKg / (alturaEmMetros * alturaEmMetros);
             //Console.WriteLine(IMC);
+
+
+
+
+
+            //////////////////////////////////////////////////////
+
 
             //double valorDoProduto;
             //double lucro;
@@ -856,41 +865,398 @@ namespace O_grito_aula___01
 
 
 
-            string[] nomeDoAluno;
-            double[] notaDosAlunos;
-            double mediaDeNotas;
-            int numeroDeAlunos;
-            double notaTotal = 0;
+            //string[] nomeDoAluno;
+            //double[] notaDosAlunos;
+            //double mediaDeNotas;
+            //int numeroDeAlunos = 0;
+            //double notaTotal = 0;
+            //int alunosAprovados = 0;
+            //int alunosReprovados = 0;
 
-            Console.WriteLine("Cadastre os Nomes do Alunos");
+            //do
+            //{
 
-            numeroDeAlunos = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("Informe o Numero de Alunos");
 
-            nomeDoAluno = new string[numeroDeAlunos];
-            notaDosAlunos = new double[numeroDeAlunos];
+            //    numeroDeAlunos = int.Parse(Console.ReadLine());
 
+            //    Console.Clear();
+
+            //}
+            //while (numeroDeAlunos <= 0);
+
+
+            //while (numeroDeAlunos <= 0)
+            //{
+            //    Console.WriteLine("Informe o Numero de Alunos que não seja Negativo");
+            //    numeroDeAlunos = int.Parse(Console.ReadLine());
+            //    Console.Clear();
+            //}
+
+
+            //while (true)
+            //{
+
+            //    Console.WriteLine("Informe o Numero de Alunos que não seja Negativo");
+            //    numeroDeAlunos = int.Parse(Console.ReadLine());
+            //    Console.Clear();
+            //    if (!(numeroDeAlunos <= 0))
+            //        break;
+
+
+            //}
+
+
+
+
+            //nomeDoAluno = new string[numeroDeAlunos];
+            //notaDosAlunos = new double[numeroDeAlunos];
+
+
+
+            //for (int i = 0; i < numeroDeAlunos; i++)
+            //{
+            //    Console.WriteLine("informe o nome do Aluno de Nº" + i);
+            //    nomeDoAluno[i] = Console.ReadLine();
+            //    Console.WriteLine("\ninforme a nota do Aluno " + i);
+            //    notaDosAlunos[i] = double.Parse(Console.ReadLine());
+
+            //}
+
+            //for (int i = 0; i < numeroDeAlunos; i++)
+            //{
+            //    notaTotal = notaTotal + notaDosAlunos[i];
+
+            //    if (notaDosAlunos[i] < 60)
+            //    {
+            //        alunosReprovados++;
+            //    }
+            //    else
+            //    {
+            //        alunosAprovados++;
+            //    }
+
+
+            //}
+
+            //Console.WriteLine("\nAlunos Aprovados " + alunosAprovados);
+            //Console.WriteLine("\nAlunos Reprovados " + alunosReprovados);
+
+            //mediaDeNotas = notaTotal / numeroDeAlunos;
+
+            //Console.WriteLine("\nNota Média da Turma de Alunos " + mediaDeNotas);
+
+
+
+            /////////////////////////////////////////////////////////////
+
+
+            //string fraseAux = "";
+
+            //List<string> frase = new List<string>();
+
+            //while (true)
+            //{
+            //    Console.WriteLine("Insire a Frase (digite 0 para parar)");
+            //    fraseAux = Console.ReadLine();
+
+            //    if (fraseAux == "0")
+
+            //        break;
+
+            //    frase.Add(fraseAux);
+            //}
+
+            //for (int i = 0;i< frase.Count; i++)
+            //{
+            //    Console.WriteLine(frase[i]);
+            //}
+
+
+
+            /////////////////////////////////////////////////////
+
+
+            //List<string> nomeDoAlunos = new List<string>();
+            //List<double> notaDosAlunos = new List<double>();
+            //double mediaDeNotas;
+            //string nomeDeAluno = "";
+            //double notaDoAluno = 0;
+            //double notaTotal = 0;
+            //int alunosAprovados = 0;
+            //int alunosReprovados = 0;
+
+
+            //while (true)
+            //{
+            //    Console.WriteLine("Insira o Nome do Aluno (digite 0 para parar)");
+            //    nomeDeAluno = Console.ReadLine();
+
+
+            //    if (nomeDeAluno == "0")
+
+            //        break;
+
+            //    Console.WriteLine("Insina a Nota do Aluno");
+            //    notaDoAluno = double.Parse(Console.ReadLine());
+
+            //    while (notaDoAluno < 0)
+            //    {
+            //        Console.WriteLine("Insira uma Nota Maior que 0");
+            //        notaDoAluno = double.Parse(Console.ReadLine());
+
+            //    }
+
+            //    nomeDoAlunos.Add(nomeDeAluno);
+            //    notaDosAlunos.Add(notaDoAluno);
+
+            //    Console.Clear();
+
+            //}
+
+
+
+            //for (int i = 0; i < nomeDoAlunos.Count; i++)
+            //{
+            //    notaTotal = notaTotal + notaDosAlunos[i];
+
+            //    if (notaDosAlunos[i] < 60)
+            //    {
+            //        alunosReprovados++;
+            //    }
+            //    else
+            //    {
+            //        alunosAprovados++;
+            //    }
+
+            //}
+
+            //Console.Clear();
+
+            //for (int i = 0; i < nomeDoAlunos.Count; i++)
+            //{
+            //    Console.WriteLine(nomeDoAlunos[i] + " - " + notaDosAlunos[i]);
+            //}
+
+
+            //Console.WriteLine("\nAlunos Aprovados " + alunosAprovados);
+            //Console.WriteLine("\nAlunos Reprovados " + alunosReprovados);
+
+            //mediaDeNotas = notaTotal / nomeDoAlunos.Count;
+
+            //Console.WriteLine("\nNota Média da Turma de Alunos " + mediaDeNotas);
+
+
+
+            ///////////////////////////////////////////////////////////////////////
+
+
+            //***************************** ATIVIDADE 01************************** 
+
+
+            //List<string> modeloDoCarro = new List<string>();
+            //List<string> corDoCarro = new List<string>();
+            //List<string> placaDocarro = new List<string>();
+
+            //string modelo = "";
+            //string Cor = "";
+            //String placa = "";
+
+
+            //while (true)
+            //{
+            //    Console.WriteLine("Insira o Modelo do Carro ou (digite 0 para parar)");
+            //    modelo = Console.ReadLine();
+
+
+            //    if (modelo == "0")
+
+            //        break;
+
+            //    Console.WriteLine("Informe a Cor do Veiículo");
+            //    Cor = Console.ReadLine();
+
+
+
+            //    Console.WriteLine("Informe e Placa do Veículo");
+            //    placa = Console.ReadLine();
+
+
+            //    modeloDoCarro.Add(modelo);
+            //    corDoCarro.Add(Cor);
+            //    placaDocarro.Add(placa);
+
+            //    Console.Clear();
+            //}
+
+
+            //Console.Clear();
+
+
+            //Console.WriteLine("*************Carros Cadastrados**************");
+
+            //for (int i = 0; i < modeloDoCarro.Count; i++)
+            //{
+            //    Console.WriteLine("\n" + placaDocarro[i] + " - " + corDoCarro[i] + " - " + modeloDoCarro[i]);
+            //}
+
+
+
+
+
+            //***************************** ATIVIDADE 01**************************
+
+
+            //List<string> produto = new List<string>();
+            //List<double> precoProduto = new List<double>();
+
+            //string produtos = "";
+            //double precoDosProdutos = 0;
+
+
+            //int item = 0;
+            //int quantidade = 0;
+            //double precoTotal = 0;
+
+            //while (true)
+            //{
+            //    Console.WriteLine("Insira nome do Produto ou (digite 0 para parar)");
+            //    produtos = Console.ReadLine();
+
+
+            //    if (produtos == "0")
+
+            //        break;
+
+            //    Console.WriteLine("Insina o Valor do Porduto");
+            //    precoDosProdutos = double.Parse(Console.ReadLine());
+
+
+
+            //    produto.Add(produtos);
+            //    precoProduto.Add(precoDosProdutos);
+
+
+            //    Console.Clear();
+
+            //}
+
+            //Console.Clear();
+
+
+
+            //while (true)
+            //{
+            //    for (int i = 0; i < produto.Count; i++)
+            //    {
+
+            //        Console.WriteLine("\n" + i + " - " + produto[i] + " - " + precoProduto[i]);
+
+            //    }
+
+            //    Console.WriteLine(" \n Adicione a sua Lista de Compras digitando o numero correspondente ao item(e -1 para Finalizar)");
+            //    item = int.Parse(Console.ReadLine());
+
+
+            //    if (item == -1)
+
+            //        break;
+
+            //    Console.WriteLine("Informe a quantidade");
+            //    quantidade = int.Parse(Console.ReadLine());
+
+
+            //    Console.Clear();
+
+
+            //    precoTotal = precoTotal + precoProduto[item] * quantidade;
+
+            //}
+
+            //Console.WriteLine(" Valor Total da Compra"+ "\n" + "R$" + precoTotal);
+
+
+
+
+
+            ////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+            List<string> nomeAluno = new List<string>();
+            List<double> alturaAluno = new List<double>();
+            List<double> pesoAluno = new List<double>();
+            List<double> imcAluno = new List<double>();
+            List<double> saudeAluno = new List<double>();
+
+            string nomeDeAluno = "";
+            double AlturaDoAluno = 0;
+            double pesoDoAluno = 0;
             
 
-            for (int i = 0; i < numeroDeAlunos; i++)
+
+
+            int item = 0;
+            double imc = 0;
+            
+
+
+            while (true)
             {
-                Console.WriteLine("informe o nome do Aluno de Nº" + i);
-                nomeDoAluno[i] = Console.ReadLine();
-                Console.WriteLine("\ninforme a nota do Aluno " + i);
-                notaDosAlunos[i] = double.Parse(Console.ReadLine());
+                Console.WriteLine("Cadastro de Alunos e Calculo de IMC");
+
+                Console.WriteLine("\nInsira nome do Aluno ou (digite 0 para parar)");
+                nomeDeAluno = Console.ReadLine();
+
+
+                if (nomeDeAluno == "0")
+
+                    break;
+
+                Console.WriteLine("Altura Do Aluno");
+                AlturaDoAluno = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Peso do Aluno");
+                pesoDoAluno = double.Parse(Console.ReadLine());
+
+
+
+                nomeAluno.Add(nomeDeAluno);
+                alturaAluno.Add(AlturaDoAluno);
+                pesoAluno.Add(pesoDoAluno);
+
+                imc = pesoDoAluno / (AlturaDoAluno * AlturaDoAluno);
+
+                imcAluno.Add(imc);
+                saudeAluno.Add(imc);
+
+                Console.Clear();
 
             }
 
-            for (int i = 0; i < numeroDeAlunos; i++)
+            Console.Clear();
+
+          
+
+            for (int i = 0; i < nomeAluno.Count; i++)
+
             {
-                notaTotal = notaTotal + notaDosAlunos[i];
+                Console.WriteLine("\n" + i + " - " + nomeAluno[i] + " - " + alturaAluno[i] + " - " + pesoAluno[i] + " - " + imcAluno[i].ToString("0.00"));
+
+                if (saudeAluno[i] < 18.5)
+                    Console.WriteLine("Magreza");
                 
-                
+                if (saudeAluno[i] >= 18.5 && saudeAluno[i] < 24.9)
+                    Console.WriteLine("Normal");
 
+                if (saudeAluno[i] >= 24.9 && saudeAluno[i] < 30)
+                    Console.WriteLine("SobrePeso");
 
-
-
-
-
+                if (saudeAluno[i] >= 30)
+                    Console.WriteLine("Obesidade");
 
             }
 
@@ -902,63 +1268,10 @@ namespace O_grito_aula___01
 
 
 
-            Console.WriteLine("Média da Turma");
-            Console.WriteLine("\n" + notaTotal / numeroDeAlunos);
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        }
 
 
 
